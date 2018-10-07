@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFADB2CA"
+    tools:context="anirudh.svct.cse_syllabus">
+
+    <Button
+        android:id="@+id/transport"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sports"
+        android:layout_below="@+id/hostels"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="R17 csse"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transport"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="R14 CSE"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/hostels"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/transport"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="R17 CSE"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/r12_cse"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/sports"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="R12 CSE"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

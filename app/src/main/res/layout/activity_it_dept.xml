@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anirudh.svct.it_dept">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DCDCDC"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/faculty_it"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:background="#808080"
+        android:layout_alignStart="@+id/profile_it"
+        android:layout_below="@+id/profile_it"
+        android:layout_marginTop="45dp"
+        android:text="faculty" />
+
+    <Button
+        android:id="@+id/profile_it"
+        android:layout_width="130dp"
+        android:textColor="@android:color/white"
+        android:background="#808080"
+        android:layout_height="100dp"
+        android:layout_marginTop="59dp"
+        android:text="profile"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/laboratories_it"
+        android:layout_marginEnd="25dp" />
+
+    <Button
+        android:id="@+id/contact_it"
+        android:layout_width="130dp"
+        android:textColor="@android:color/white"
+        android:background="#808080"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/circulars_it"
+        android:layout_alignStart="@+id/syllabus_it"
+        android:text="contact" />
+
+    <Button
+        android:id="@+id/circulars_it"
+        android:layout_width="130dp"
+        android:textColor="@android:color/white"
+        android:background="#808080"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/faculty_it"
+        android:layout_below="@+id/faculty_it"
+        android:layout_marginTop="47dp"
+        android:text="circulars" />
+
+    <Button
+        android:id="@+id/syllabus_it"
+        android:layout_width="130dp"
+        android:textColor="@android:color/white"
+        android:background="#808080"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/faculty_it"
+        android:layout_alignStart="@+id/laboratories_it"
+        android:layout_alignTop="@+id/faculty_it"
+        android:text="syllabus" />
+
+    <Button
+        android:id="@+id/laboratories_it"
+        android:layout_width="130dp"
+        android:textColor="@android:color/white"
+        android:background="#808080"
+        android:layout_height="100dp"
+        android:layout_above="@+id/faculty_it"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="36dp"
+        android:text="laboratories" />
+</RelativeLayout>

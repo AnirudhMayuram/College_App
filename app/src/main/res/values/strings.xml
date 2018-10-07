@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SVCT</string>
+    <string name="title_activity_about_us">About_us</string>
+    <string name="title_activity_departments">Departments</string>
+    <string name="title_activity_facilities">Facilities</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFADB2CA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anirudh.svct.International_Relationships">
+
+    <Button
+        android:id="@+id/international_admissions"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="international admissions"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/about_ir"
+        android:layout_alignStart="@+id/about_ir" />
+
+    <Button
+        android:id="@+id/mous"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="MoUs"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="76dp"
+        android:layout_alignTop="@+id/rankings"
+        android:layout_alignStart="@+id/rankings" />
+
+    <Button
+        android:id="@+id/consultant"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="consultant"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/mous"
+        android:layout_alignStart="@+id/mous"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:id="@+id/about_ir"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="about ir"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/rankings"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/international_admissions"
+        android:layout_below="@+id/international_admissions"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/round_button"
+        android:padding="15dp"
+        android:text="rankings"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

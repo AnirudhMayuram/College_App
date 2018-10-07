@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="anirudh.svct">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".About_us"
+            android:label="About us"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Departments"
+            android:label="Departments"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Campus_life"
+            android:label="Campus Life"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Student_Login"
+            android:label="Student Login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Placement_and_Training"
+            android:label="Placement and Training"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Academics"
+            android:label="Academics"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".International_Relationships"
+            android:label="International Relations"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Contact_us"
+            android:label="Contact us"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".cse_dept"
+            android:label="CSE department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".civil_dept"
+            android:label="CIVIL department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".ece_dept"
+            android:label="ECE department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".eee_dept"
+            android:label="EEE department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".it_dept"
+            android:label="IT department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".mec_dept"
+            android:label="MEC department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".auto_dept"
+            android:label="AUT department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".auto_profile"
+            android:label="Profile"
+            android:parentActivityName=".auto_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auto_dept" />
+        </activity>
+        <activity
+            android:name=".auto_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".auto_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auto_dept" />
+        </activity>
+        <activity
+            android:name=".auto_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".auto_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auto_dept" />
+        </activity>
+        <activity
+            android:name=".auto_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".auto_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auto_dept" />
+        </activity>
+        <activity
+            android:name=".auto_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".auto_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auto_dept" />
+        </activity>
+        />
+        <activity
+            android:name=".auto_contact"
+            android:label="Contact"
+            android:parentActivityName=".auto_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".auto_dept" />
+        </activity>
+        <activity
+            android:name=".civil_profile"
+            android:label="Profile"
+            android:parentActivityName=".civil_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".civil_dept" />
+        </activity>
+        <activity
+            android:name=".civil_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".civil_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".civil_dept" />
+        </activity>
+        <activity
+            android:name=".civil_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".civil_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".civil_dept" />
+        </activity>
+        <activity
+            android:name=".civil_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".civil_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".civil_dept" />
+        </activity>
+        <activity
+            android:name=".civil_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".civil_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".civil_dept" />
+        </activity>
+        <activity
+            android:name=".civil_contact"
+            android:label="Contact"
+            android:parentActivityName=".civil_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".civil_dept" />
+        </activity>
+        <activity
+            android:name=".cse_profile"
+            android:label="Profile"
+            android:parentActivityName=".cse_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cse_dept" />
+        </activity>
+        <activity
+            android:name=".cse_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".cse_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cse_dept" />
+        </activity>
+        <activity
+            android:name=".cse_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".cse_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cse_dept" />
+        </activity>
+        <activity
+            android:name=".cse_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".cse_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cse_dept" />
+        </activity>
+        <activity
+            android:name=".cse_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".cse_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cse_dept" />
+        </activity>
+        <activity
+            android:name=".cse_contact"
+            android:label="Contact"
+            android:parentActivityName=".cse_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cse_dept" />
+        </activity>
+        <activity
+            android:name=".ece_profile"
+            android:label="Profile"
+            android:parentActivityName=".ece_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ece_dept" />
+        </activity>
+        <activity
+            android:name=".ece_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".ece_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ece_dept" />
+        </activity>
+        <activity
+            android:name=".ece_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".ece_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ece_dept" />
+        </activity>
+        <activity
+            android:name=".ece_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".ece_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ece_dept" />
+        </activity>
+        <activity
+            android:name=".ece_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".ece_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ece_dept" />
+        </activity>
+        <activity
+            android:name=".ece_contact"
+            android:label="Contact"
+            android:parentActivityName=".ece_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ece_dept" />
+        </activity>
+        <activity
+            android:name=".eee_profile"
+            android:label="Profile"
+            android:parentActivityName=".eee_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".eee_dept" />
+        </activity>
+        <activity
+            android:name=".eee_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".eee_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".eee_dept" />
+        </activity>
+        <activity
+            android:name=".eee_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".eee_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".eee_dept" />
+        </activity>
+        <activity
+            android:name=".eee_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".eee_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".eee_dept" />
+        </activity>
+        <activity
+            android:name=".eee_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".eee_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".eee_dept" />
+        </activity>
+        <activity
+            android:name=".eee_contact"
+            android:label="Contact"
+            android:parentActivityName=".eee_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".eee_dept" />
+        </activity>
+        <activity
+            android:name=".it_profile"
+            android:label="Profile"
+            android:parentActivityName=".it_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it_dept" />
+        </activity>
+        <activity
+            android:name=".it_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".it_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it_dept" />
+        </activity>
+        <activity
+            android:name=".it_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".it_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it_dept" />
+        </activity>
+        <activity
+            android:name=".it_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".it_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it_dept" />
+        </activity>
+        <activity
+            android:name=".it_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".it_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it_dept" />
+        </activity>
+        <activity
+            android:name=".it_contact"
+            android:label="Contact"
+            android:parentActivityName=".it_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it_dept" />
+        </activity>
+        <activity
+            android:name=".mec_profile"
+            android:label="Profile"
+            android:parentActivityName=".mec_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mec_dept" />
+        </activity>
+        <activity
+            android:name=".mec_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".mec_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mec_dept" />
+        </activity>
+        <activity
+            android:name=".mec_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".mec_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mec_dept" />
+        </activity>
+        <activity
+            android:name=".mec_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".mec_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mec_dept" />
+        </activity>
+        <activity
+            android:name=".mec_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".mec_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mec_dept" />
+        </activity>
+        <activity
+            android:name=".mec_contact"
+            android:label="Contact"
+            android:parentActivityName=".mec_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mec_dept" />
+        </activity>
+        <activity
+            android:name=".hostel_life"
+            android:label="Hostels"
+            android:parentActivityName=".Campus_life">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Campus_life" />
+        </activity>
+        <activity
+            android:name=".sports_life"
+            android:label="Sports"
+            android:parentActivityName=".Campus_life">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Campus_life" />
+        </activity>
+        <activity
+            android:name=".transport_life"
+            android:label="Transport"
+            android:parentActivityName=".Campus_life">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Campus_life" />
+        </activity>
+        <activity
+            android:name=".gym_life"
+            android:label="Gym"
+            android:parentActivityName=".Campus_life">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Campus_life" />
+        </activity>
+        <activity
+            android:name=".has_dept"
+            android:label="HAS department"
+            android:parentActivityName=".Departments">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Departments" />
+        </activity>
+        <activity
+            android:name=".has_profile"
+            android:label="Profile"
+            android:parentActivityName=".has_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".has_dept" />
+        </activity>
+        <activity
+            android:name=".has_laboratories"
+            android:label="Laboratories"
+            android:parentActivityName=".has_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".has_dept" />
+        </activity>
+        <activity
+            android:name=".has_faculty"
+            android:label="Faculty"
+            android:parentActivityName=".has_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".has_dept" />
+        </activity>
+        <activity
+            android:name=".has_syllabus"
+            android:label="Syllabus"
+            android:parentActivityName=".has_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".has_dept" />
+        </activity>
+        <activity
+            android:name=".has_circulars"
+            android:label="Circulars"
+            android:parentActivityName=".has_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".has_dept" />
+        </activity>
+        <activity
+            android:name=".has_contact"
+            android:label="Contact"
+            android:parentActivityName=".has_dept">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".has_dept" />
+        </activity>
+        <activity
+            android:name=".about_ir"
+            android:label="About IR"
+            android:parentActivityName=".International_Relationships">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".International_Relationships" />
+        </activity>
+        <activity
+            android:name=".international_admissions"
+            android:label="International Admissions"
+            android:parentActivityName=".International_Relationships">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".International_Relationships" />
+        </activity>
+        <activity
+            android:name=".consultant"
+            android:label="Consultant"
+            android:parentActivityName=".International_Relationships">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".International_Relationships" />
+        </activity>
+        <activity android:name=".rankings"
+            android:label="Rankings"
+            android:parentActivityName=".International_Relationships">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".International_Relationships" />
+        </activity>
+        <activity android:name=".mous"
+            android:label="MoU's"
+            android:parentActivityName=".International_Relationships">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".International_Relationships" />
+        </activity>
+    </application>
+
+</manifest>

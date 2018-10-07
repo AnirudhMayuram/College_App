@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anirudh.svct.Departments"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/cse_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="18dp"
+        android:width="@android:dimen/app_icon_size"
+        android:background="@android:color/background_light"
+        android:elevation="2dp"
+        android:paddingLeft="@dimen/fab_margin"
+        android:text="Computer Science Engineering"
+        android:textAlignment="textStart"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/civil_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cse_dept"
+        android:background="@android:color/background_light"
+        android:paddingLeft="@dimen/fab_margin"
+        android:text="Civil engineering"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/ece_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/civil_dept"
+        android:background="@android:color/background_light"
+        android:paddingLeft="@dimen/fab_margin"
+        android:text="Electronics and communication engineering"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/eee_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ece_dept"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        android:paddingLeft="16dp"
+        android:text="Electrical and electronics engineering"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/it_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/eee_dept"
+        android:background="@android:color/background_light"
+        android:paddingLeft="16dp"
+        android:text="information technology"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/mec_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/it_dept"
+        android:background="@android:color/background_light"
+        android:paddingLeft="16dp"
+        android:text="Mechanical engineering"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/auto_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mec_dept"
+        android:background="@android:color/background_light"
+        android:paddingLeft="16dp"
+        android:text="Automobile engineering"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/has_dept"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/auto_dept"
+        android:background="@android:color/white"
+        android:paddingLeft="16dp"
+        android:text="Humanities and sciences"
+        android:textAlignment="textStart" />
+</RelativeLayout>

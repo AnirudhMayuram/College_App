@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anirudh.svct.MainActivity">
+
+    <Button
+        android:id="@+id/ece_dept"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="33dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/about_us"
+        android:text="About"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/eee_dept"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/departments"
+        android:text="Departments"
+        android:layout_alignBottom="@+id/ece_dept"
+        android:layout_toEndOf="@+id/ece_dept"
+        android:layout_marginStart="50dp"
+        android:layout_alignTop="@+id/ece_dept" />
+
+    <Button
+        android:id="@+id/it_dept"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ece_dept"
+        android:layout_marginTop="37dp"
+        android:layout_toStartOf="@+id/eee_dept"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/campus_life"
+        android:text="Campus_life" />
+
+    <Button
+        android:id="@+id/mec_dept"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/student_login"
+        android:text="Student login"
+        android:layout_alignBottom="@+id/it_dept"
+        android:layout_alignStart="@+id/eee_dept"
+        android:layout_alignTop="@+id/it_dept" />
+
+    <Button
+        android:id="@+id/auto_dept"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/placement_training"
+        android:text="Placements "
+        android:layout_below="@+id/it_dept"
+        android:layout_alignStart="@+id/it_dept" />
+
+    <Button
+        android:id="@+id/acaademics_id"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/academics"
+        android:text="Academics"
+        android:layout_alignBottom="@+id/auto_dept"
+        android:layout_alignStart="@+id/mec_dept"
+        android:layout_alignTop="@+id/auto_dept" />
+
+    <Button
+        android:id="@+id/international_id"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/auto_dept"
+        android:layout_below="@+id/acaademics_id"
+        android:layout_marginTop="46dp"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/international_realtions"
+        android:text="International relations" />
+
+    <Button
+        android:id="@+id/contact_us_id"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/international_id"
+        android:layout_alignStart="@+id/acaademics_id"
+        android:background="#FFFFFF"
+        android:drawableTop="@drawable/contact_us"
+        android:text="Contact"
+        android:layout_alignTop="@+id/international_id" />
+
+</RelativeLayout>
